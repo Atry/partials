@@ -1,0 +1,1 @@
+﻿Like the previous course [GettingStarted](https://thoughtworksinc.github.io/DeepLearning.scala/demo/GettingStarted.html), we need to introduce each class of DeepLearning.scala.

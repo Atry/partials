@@ -1,0 +1,1 @@
+﻿We use the processed test data to verify the prediction result of the neural network and compute the accuracy. The accuracy shall be about 32%.

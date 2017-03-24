@@ -1,0 +1,1 @@
+﻿## Verify the neural network and predict the accuracy

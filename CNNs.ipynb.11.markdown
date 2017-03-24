@@ -1,0 +1,1 @@
+﻿Similar with the last section; write `softmax` layer and fully connected layer.

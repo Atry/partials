@@ -1,0 +1,1 @@
+﻿## Combine two layers of the neural network

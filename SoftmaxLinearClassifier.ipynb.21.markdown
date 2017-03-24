@@ -1,0 +1,1 @@
+﻿To read the pictures and corresponding label information for test data from CIFAR10 database and process them, we need [`import $file.ReadCIFAR10ToNDArray`](https://github.com/ThoughtWorksInc/DeepLearning.scala-website/blob/master/ipynbs/ReadCIFAR10ToNDArray.sc). This is a script file containing the read and processed CIFAR10 data, provided in this course.

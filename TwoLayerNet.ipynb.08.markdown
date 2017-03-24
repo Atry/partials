@@ -1,0 +1,1 @@
+﻿This is the neural network consisted of full connection and [relu](http://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-network).

@@ -1,0 +1,1 @@
+﻿Like the last section, we use `softmax` as the classifier.

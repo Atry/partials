@@ -1,0 +1,1 @@
+﻿### Read and process the data according to the array, and then train the neural network.

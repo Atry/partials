@@ -1,0 +1,1 @@
+﻿### Write the second layer of the neural network

@@ -1,0 +1,1 @@
+﻿Write the second neural network of the two layers of the neural network. This is a neural network consisted of a layer of full connection and a layer of `softmax`.

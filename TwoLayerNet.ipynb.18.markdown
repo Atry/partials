@@ -1,0 +1,1 @@
+﻿### Write `network` and combine the input layer and [hidden layer](http://stats.stackexchange.com/questions/63152/what-does-the-hidden-layer-in-a-neural-network-compute)

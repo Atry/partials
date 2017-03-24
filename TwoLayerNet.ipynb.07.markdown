@@ -1,0 +1,1 @@
+﻿### Write the first layer of the neural network

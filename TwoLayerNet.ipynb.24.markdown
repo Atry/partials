@@ -1,0 +1,1 @@
+﻿Like [the previous section](https://thoughtworksinc.github.io/DeepLearning.scala/demo/MiniBatchGradientDescent.html) read and process pictures and label information of the test set from CIFAR10 database

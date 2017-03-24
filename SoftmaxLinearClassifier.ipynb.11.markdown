@@ -1,0 +1,1 @@
+﻿Learning rate need to be set for the full connection layer. Learning rate visually describes the change rate of `weight`. A too-low learning rate will result in slow decrease of `loss`, which will require longer time for training; A too-high learning rate will result in rapid decrease of `loss` at first while fluctuation around the lowest point afterward.

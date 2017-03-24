@@ -1,0 +1,1 @@
+﻿Like the last section, train the neural network and observe the change of `loss` in each training.

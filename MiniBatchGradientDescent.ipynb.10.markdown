@@ -1,0 +1,1 @@
+﻿Like [the previous section](https://thoughtworksinc.github.io/DeepLearning.scala/demo/SoftmaxLinearClassifier.html), we read the pictures and corresponding label information for test data from CIFAR10 database and process them. However, here we only read the test set, and the training set is randomly read during training.

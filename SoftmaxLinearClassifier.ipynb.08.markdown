@@ -1,0 +1,1 @@
+﻿To use `softmax` classifier (softmax classifier is a neural network combined by `softmax` and a full connection), we first need to write softmax function, formula: ![](https://www.zhihu.com/equation?tex=f_j%28z%29%3D%5Cfrac%7Be%5E%7Bz_j%7D%7D%7B%5Csum_ke%5E%7Bz_k%7D%7D)

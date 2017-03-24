@@ -1,0 +1,1 @@
+﻿### Take one section of code of softmax as an example

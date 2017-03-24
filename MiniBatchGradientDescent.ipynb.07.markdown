@@ -1,0 +1,1 @@
+﻿### Disrupt the order of a sequence once for each [epoch](http://stackoverflow.com/questions/4752626/epoch-vs-iteration-when-training-neural-networks), and generate the random arrays.

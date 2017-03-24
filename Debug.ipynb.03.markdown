@@ -1,0 +1,1 @@
+﻿[Complete code](https://github.com/izhangzhihao/deeplearning-tutorial/blob/master/src/main/scala/com/thoughtworks/deeplearning/tutorial/Debug.scala)

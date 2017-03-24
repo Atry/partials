@@ -1,0 +1,1 @@
+﻿## Apply Mini-Batch Gradient Descent

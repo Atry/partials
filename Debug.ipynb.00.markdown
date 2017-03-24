@@ -1,0 +1,1 @@
+﻿## How can we view the state of data in the neural network during a stage

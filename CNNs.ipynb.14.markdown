@@ -1,0 +1,1 @@
+﻿To build a neural network including 16 convolutional layers, we need to use the layer defined above to combine a network consisted of 16 convolutional layers, fully connected layer and `softmax` layer.

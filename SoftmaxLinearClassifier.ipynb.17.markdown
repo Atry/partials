@@ -1,0 +1,2 @@
+﻿To learn about the prediction result of the neural network, we need to write the loss function `lossFunction`. We use [cross-entropy loss](https://en.wikipedia.org/wiki/Cross_entropy) to make comparison between this result and the actual result before return the score. Formula:
+![](https://zhihu.com/equation?tex=%5Cdisplaystyle+H%28p%2Cq%29%3D-%5Csum_xp%28x%29+logq%28x%29)

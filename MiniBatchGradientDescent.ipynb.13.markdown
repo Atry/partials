@@ -1,0 +1,1 @@
+﻿Just like the last section, we use the test data to verify the prediction result of the neural network and compute the accuracy. This time, the accuracy may increase to about 40%.

@@ -1,0 +1,1 @@
+﻿To observe the training process of the neural network, we need to output `loss`; while training the neural network, the `loss` shall be deceasing.

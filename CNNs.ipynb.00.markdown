@@ -1,0 +1,5 @@
+﻿## Background
+
+When the numbers of layers are increasing, the parameters of a multi-layer neural network built by full connection increase rapidly, and the computing speed will be very slow, which greatly affects the neural network training. [convolution] (https://zh.wikipedia.org/zh/convolution) By parameter sharing, the explosive growth of parameters during the increase of numbers of the fully connected layers is avoided, which reduces calculation amount, and thus we can build deeper neural network.
+
+In this section, we will first define a multi-layer neural network including 16 convolutional layers, and then use the training set of [CIFAR10] (https://www.cs.toronto.edu/~kriz/cifar.html) to train this neural network. Finally, we will use a test set to verify the accuracy of the neural network. Attention: according to the configuration of your device, this training requires to be operated for several hours, and the hyper-parameters need to be regulated according to the decrease of `loss`and the variation of the accuracy. The final accuracy can reach above 55%.

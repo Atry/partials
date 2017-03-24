@@ -1,0 +1,1 @@
+﻿Begin the training of neural network and observe the changes of `loss` during each training; attention: according to the configuration of your device, this training requires to be operated for several hours, and the hyper-parameters need to be regulated according to the decrease of `loss`and the variation of the accuracy according to the configuration of your device.

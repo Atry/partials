@@ -1,0 +1,1 @@
+﻿To reduce the line numbers outputted by `jupyter-scala` and to make sure that the page output will not be too long, we need to set `pprintConfig`.
