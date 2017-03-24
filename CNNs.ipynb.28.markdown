@@ -1,6 +1,6 @@
 ﻿## Summary
 
-What we have learned in this section:
+What we have learned in this article:
 
 * Convolutional Neural Network (CNN)
 * Adam

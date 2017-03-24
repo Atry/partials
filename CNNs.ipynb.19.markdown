@@ -1,1 +1,1 @@
-﻿Similar to [the last section] (https://thoughtworksinc.github.io/DeepLearning.scala/demo/TwoLayerNet.html) the pictures and label information to read and process the test set from CIFAR10 database
+Similar to [the previous article](https://thoughtworksinc.github.io/DeepLearning.scala/demo/TwoLayerNet.html), read and process the images and labels in test set from CIFAR10 database.

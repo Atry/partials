@@ -1,8 +1,8 @@
 ﻿== Three usages of `@Symbolic` ==
 
-=== Implicit parameter types used for symbol approaches ===
+=== Implicit parameter types used for symbol methodes ===
 
-In case that the implicit parameter of an approach is marked with `@Symbolic`, then this approach is symbol approach. The implicit parameter type marked with `@Symbolic` is the '''Input type''' of this symbol approach.
+In case that the implicit parameter of an method is marked with `@Symbolic`, then this method is symbol method. The implicit parameter type marked with `@Symbolic` is the '''input type''' of this symbol method.
 In this case, `NativeOutput @Symbolic` will be expanded as:
 {{{Identity[NativeOutput, Derivative type of NativeOutput]}}}
 
@@ -14,11 +14,11 @@ def sumNetwork(implicit scores: INDArray @Symbolic): Double = {
 }
 }}}
 
-In the above code, because [[Layer.Tape#Delta Derivative type]] of `INDArray` is also `INDArray`, the input type `INDArray @Symbolic` of `sumNetwork`, once expanded, is `Identity[INDArray, INDArray]`
+In the above code, because [[Layer.Tape#Delta the derivative type]] of `INDArray` is also `INDArray`, the input type `INDArray @Symbolic` of `sumNetwork`, once expanded, is `Identity[INDArray, INDArray]`
 
-=== Used for symbol approach internal variable and return value ===
+=== Used for symbol method internal variable and return value ===
 
-Inside the symbol approach and at the return value, `NativeOutput @Symbolic` will be expanded as:
+A `NativeOutput @Symbolic` inside a symbol method, or at the return position of a symbol method, will be expanded as:
 {{{Layer.Aux[Tape.Aux[value type of input type, derivative type of input type], Tape.Aux[NativeOutput, derivative type of NativeOutput]]}}}
 
 For example:
@@ -37,9 +37,9 @@ In the above code, the type `INDArray @Symbolic` of `expScores` is expanded as:
 The type `Double @Symbolic` of `result` is expanded as:
 {{{Layer.Aux[Tape.Aux[INDArray, INDArray], Tape.Aux[Double, Double]]}}}
 
-=== Used for cases excluding symbol approach ===
+=== Used for cases excluding symbol method ===
 
-In cases excluding symbol approach, `(NativeInput => NativeOutput) @Symbolic` will be expanded as:
+`(NativeInput => NativeOutput) @Symbolic` outside a symbol method, will be expanded as:
 {{{Layer.Aux[Tape.Aux[NativeInput, derivative type of NativeInput], Tape.Aux[NativeOutput, derivative type of NativeOutput]]}}}
 
 For example:
@@ -54,7 +54,7 @@ In the above code, type `(INDArray => Double) @Symbolic` of `predictor` is expan
 
 == Custom symbol type ==
 
-`@Symbolic` determines the mapping relation between the primitive type and derivative by checking [[Symbolic.ToLiteral]] implicit value. Therefore, once the implicit value of [[Symbolic.ToLiteral]] type is defined, `@Symbolic` can support the custom symbol type.
+`@Symbolic` determines the mapping relation between the primitive type and derivative by checking [[Symbolic.ToLiteral]] implicit value. Therefore, `@Symbolic` can be a custom symbol type once you define your own the implicit [[Symbolic.ToLiteral]].
 
 For example, if you want to support `Short @Symbolic`, using [[scala.Float Float]] as the derivative type of [[scala.Short Short]], then you can conduct the follows:
 

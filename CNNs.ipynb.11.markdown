@@ -1,1 +1,1 @@
-﻿Similar with the last section; write `softmax` layer and fully connected layer.
+﻿Similar with the last article; write `softmax` layer and fully connected layer.
