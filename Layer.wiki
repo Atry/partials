@@ -45,7 +45,7 @@ final case class Times(operand1: Layer, operand2: Layer) extends Layer {
   def forward(inputData: Tape): Output = {
     val upstream1 = operand1.forward(input)
     val upstream2 = operand2.forward(input)
-    new Output(upstream1, upstream2)// the concrete realization is ignored here, and recursion details are focused on
+    new Output(upstream1, upstream2)// the concrete implementation is ignored here, and recursion details are focused on
   }
   final class Output(upstream1: Tape, upstream2: Tape) extends Tape { ... }
 }
@@ -107,6 +107,6 @@ In a similar way, the `backward` code of `Plus`` is similar to `backward` of `Ti
 
 `Layer.Aux` and `Type.Aux` can be combined for use. For example, `Layer.Aux[Tape.Aux[A,B]`,`Tape.Aux[C,D]]` can be used to represent that the input type of a `layer` is a `Tape`, and the data type of this `Tape` is `A`, `delta` type is `B`; the output type of a `layer` is a `Tape`, and the data type of this `Tape` is `C`, `delta` type is `D`.
 
-[[https://gigiigig.github.io/posts/2015/09/13/aux-pattern.html Aux]] is a design pattern which realized [[https://www.scala-lang.org/files/archive/spec/2.12/03-types.html type refinement]] and can be used to limit the range of type parameters.
+[[https://gigiigig.github.io/posts/2015/09/13/aux-pattern.html Aux]] is a design pattern which implemented [[https://www.scala-lang.org/files/archive/spec/2.12/03-types.html type refinement]] and can be used to limit the range of type parameters.
 
-Generally, we will not handwrite `Aux` type, because we can use `Symbolic` to acquire the same effect. For example, when used for symbolic method internal variable and return value: `Layer.Aux[Tape.Aux[INDArray, INDArray], Tape.Aux[INDArray, INDArray` and `INDArray @Symbolic` are equivalent, so we usually use `Symbolic` to replace the writing method of `Aux`.
+Generally, we will not handwrite `Aux` type, because we can use `Symbolic` to implement the same function. For example, when used for symbolic method internal variable and return value: `Layer.Aux[Tape.Aux[INDArray, INDArray], Tape.Aux[INDArray, INDArray` and `INDArray @Symbolic` are equivalent, so we usually use `Symbolic` to replace the writing method of `Aux`.

@@ -1,1 +1,1 @@
-﻿## This article is the same as the last article. Import dependencies and build the neural network.
+﻿## This section is the same as the last section. Import dependency and build the neural network.

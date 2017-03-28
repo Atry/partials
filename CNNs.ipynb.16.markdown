@@ -1,1 +1,1 @@
-﻿### Write loss function and combine the input layer and hidden layer
+﻿### Write LossFunction and combine the input layer and hidden layer

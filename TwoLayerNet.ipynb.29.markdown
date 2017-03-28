@@ -1,6 +1,6 @@
 ﻿## Summery
 
-In this article, we have learned the follows:
+In this section, we have learned the follows:
 
 * Parameter tuning
 * L2Regularization

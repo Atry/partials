@@ -1,6 +1,6 @@
 ﻿## Summary
 
-We have learned the follows in this article:
+We have learned the follows in this section:
 
 * Prepare and process CIFAR10 data
 * Write softmax classifier

@@ -1,1 +1,1 @@
-﻿This article is similar to the previous article. However, some methods for verifying accuracies of the neural network prediction test set and training set are newly added, which prints the accuracies of the neural network prediction test set and training set after training each epoch.
+﻿This section is similar to the previous section. However, some methods for verifying accuracies of the neural network prediction test set and training set are newly added, which output the accuracies of the neural network prediction test set and training set after training each epoch.

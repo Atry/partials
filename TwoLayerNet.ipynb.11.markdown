@@ -1,1 +1,1 @@
-﻿Like the last article, we use `softmax` as the classifier.
+﻿Like the last section, we use `softmax` as the classifier.
